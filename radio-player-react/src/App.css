@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.channel {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 0px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.channel img {
+  max-width: 50%;
+  border-radius: 8px;
+}
+
+.audio {
+  width: 50vw;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.parentWidth {
+  width: 95vw;
+}
+
+.padding {
+  padding-left: 10px;
+}
+
+.divWidth {
+  width: fit-content;
+}
+
+img {
+  width: 40vw;
+  padding: 10px;
+}
